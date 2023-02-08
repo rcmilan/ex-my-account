@@ -14,7 +14,7 @@ namespace Account.Domain.Tests
             // Assert
             if (shouldThrowException)
             {
-                Assert.Throws<ArgumentException>(() => new User(name, email));
+                Assert.Throws<ArgumentException>(() => new MockUser(name, email));
             }
             else
                 Assert.Pass();
@@ -30,7 +30,7 @@ namespace Account.Domain.Tests
             // Assert
             if (shouldThrowException)
             {
-                Assert.Throws<ArgumentException>(() => new User(name, email));
+                Assert.Throws<ArgumentException>(() => new MockUser(name, email));
             }
             else
                 Assert.Pass();
@@ -42,7 +42,7 @@ namespace Account.Domain.Tests
         public void ShouldCreateUserAndToogleIsActive(string name, string email, bool isActive)
         {
             // Arrange
-            var user = new User(name, email);
+            var user = new MockUser(name, email);
 
             // Act
             if (user.IsActive != isActive)
@@ -55,6 +55,13 @@ namespace Account.Domain.Tests
                 Assert.That(user.Email, Is.EqualTo(email));
                 Assert.That(user.IsActive, Is.EqualTo(isActive));
             });
+        }
+    }
+
+    internal class MockUser : User
+    {
+        public MockUser(string name, string email) : base(name, email)
+        {
         }
     }
 }
