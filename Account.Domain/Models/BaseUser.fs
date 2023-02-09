@@ -4,7 +4,7 @@
     open System.Text.RegularExpressions
 
     [<AbstractClass>]
-    type User(name: string, email: string) =
+    type public BaseUser(name: string, email: string) =
         let isValidEmail (email: string) =
             let regex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$")
             regex.IsMatch(email)

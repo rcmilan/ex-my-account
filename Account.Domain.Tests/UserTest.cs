@@ -58,7 +58,7 @@ namespace Account.Domain.Tests
         }
     }
 
-    internal class MockUser : User
+    file class MockUser : BaseUser
     {
         public MockUser(string name, string email) : base(name, email)
         {
