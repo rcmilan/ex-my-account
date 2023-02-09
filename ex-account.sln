@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Account.Domain.Tests", "Acc
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Account.Business.ExchangeSchool", "Account.Business.ExchangeSchool\Account.Business.ExchangeSchool.fsproj", "{1CFB2B10-6B64-48CE-B495-AE691C919FB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Account.Business.ExchangeSchool.Tests", "Account.Business.ExchangeSchool.Tests\Account.Business.ExchangeSchool.Tests.csproj", "{2ABBC639-EFE0-4769-9D21-2648629B00D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +31,17 @@ Global
 		{1CFB2B10-6B64-48CE-B495-AE691C919FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CFB2B10-6B64-48CE-B495-AE691C919FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CFB2B10-6B64-48CE-B495-AE691C919FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ABBC639-EFE0-4769-9D21-2648629B00D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABBC639-EFE0-4769-9D21-2648629B00D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABBC639-EFE0-4769-9D21-2648629B00D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABBC639-EFE0-4769-9D21-2648629B00D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{74C0C13B-799C-4D6E-8EF8-EDC3E2B5199C} = {498B2F27-9ECE-40F7-AF70-4D38707CBF40}
+		{2ABBC639-EFE0-4769-9D21-2648629B00D0} = {498B2F27-9ECE-40F7-AF70-4D38707CBF40}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89FD4E45-AE16-45F9-8CAD-4A8E046124B8}

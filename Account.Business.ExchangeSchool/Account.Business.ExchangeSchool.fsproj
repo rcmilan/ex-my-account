@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Models\PriceRange.fs" />
+    <Compile Include="Models\Course.fs" />
     <Compile Include="Models\School.fs" />
   </ItemGroup>
 
