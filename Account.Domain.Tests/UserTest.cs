@@ -1,5 +1,8 @@
+using Account.Domain.Models;
+
 namespace Account.Domain.Tests
 {
+    [Parallelizable]
     public class UserTest
     {
         [Test]

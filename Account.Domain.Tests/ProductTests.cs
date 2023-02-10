@@ -1,5 +1,8 @@
-﻿namespace Account.Domain.Tests
+﻿using Account.Domain.Models;
+
+namespace Account.Domain.Tests
 {
+    [Parallelizable]
     internal class ProductTests
     {
         [Test]

@@ -1,5 +1,8 @@
+using Account.Business.ExchangeSchool.Models;
+
 namespace Account.Business.ExchangeSchool.Tests
 {
+    [Parallelizable]
     public class SchoolTests
     {
         [Test]
