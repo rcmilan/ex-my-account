@@ -1,5 +1,3 @@
-using Account.Domain.Models;
-
 namespace Account.Domain.Tests
 {
     public class UserTest
@@ -58,7 +56,7 @@ namespace Account.Domain.Tests
         }
     }
 
-    file class MockUser : BaseUser
+    internal class MockUser : BaseUser
     {
         public MockUser(string name, string email) : base(name, email)
         {

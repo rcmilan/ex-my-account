@@ -9,7 +9,7 @@ type public BaseProduct(name:string)=
             raise (new ArgumentException("Name cannot be empty"))
         else
             name
-                
+
     let mutable isActive = true
 
     member this.Name with get() = name

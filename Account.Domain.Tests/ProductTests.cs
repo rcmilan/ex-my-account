@@ -1,6 +1,4 @@
-﻿using Account.Domain.Models;
-
-namespace Account.Domain.Tests
+﻿namespace Account.Domain.Tests
 {
     internal class ProductTests
     {
@@ -29,7 +27,7 @@ namespace Account.Domain.Tests
         }
     }
 
-    file class MockProduct : BaseProduct
+    internal class MockProduct : BaseProduct
     {
         public MockProduct(string name) : base(name)
         {

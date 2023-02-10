@@ -1,5 +1,3 @@
-using Account.Business.ExchangeSchool.Models;
-
 namespace Account.Business.ExchangeSchool.Tests
 {
     public class SchoolTests
