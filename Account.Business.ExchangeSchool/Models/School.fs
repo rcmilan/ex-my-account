@@ -2,7 +2,7 @@
 
 open System
 
-type public School(name:string, courses:Course[])=
+type public School(name:string, courses:Course[]) =
     let name =
         if String.IsNullOrEmpty(name) then
             raise (new ArgumentException("Name cannot be empty"))
